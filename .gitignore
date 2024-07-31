@@ -6,6 +6,9 @@
 *.ko
 *.obj
 *.elf
+*.dev
+*.layout
+*.win
 
 # Linker output
 *.ilk
