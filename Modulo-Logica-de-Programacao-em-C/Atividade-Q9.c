@@ -27,7 +27,7 @@ int main() {
         
         switch(faixa_salario) {
             case 1: 
-                if (salario <= 2000.0) {
+                if (salario < 2000.0) {
                     salario_imposto = (5.0 / 100) * salario;
                     printf(
                         "O Salario com o valor de R$%.2f com imposto de R$%.2f\n"
@@ -39,7 +39,7 @@ int main() {
                 }
                 break;
             case 2: 
-                if (salario > 2000.0 && salario <= 5000.0) {
+                if (salario >= 2000.0 && salario <= 5000.0) {
                     salario_imposto = (10.0 / 100) * salario;
                     printf(
                         "O Salario com o valor de R$%.2f com imposto de R$%.2f\n"
