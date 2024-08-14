@@ -10,9 +10,9 @@ int main() {
 
     if (numero >= 100 && numero <= 999) {
         
-        centena = numero / 100;  // Extraindo a centena
-        dezena = (numero / 10) % 10;  // Extraindo a dezena
-        unidade = numero % 10;  // Extraindo a unidade
+        centena = numero / 100;  
+        dezena = (numero / 10) % 10; 
+        unidade = numero % 10;  
 
         printf("O numero: %d\n", numero);
         printf("Invertido fica: %d%d%d", unidade, dezena, centena);
