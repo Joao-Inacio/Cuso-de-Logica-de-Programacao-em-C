@@ -16,7 +16,7 @@ int main(){
         "2 - Parcelado em 3x sem juros\n"
     );
     scanf("%f", &forma_pagamento);
-    if(forma_pagamento == 1 && forma_pagamento == 2){
+    if(forma_pagamento == 1 || forma_pagamento == 2){
         if (forma_pagamento == 1){
             valor_desconto10 = valor - ((10.0 / 100) * valor);
             comissao_desconto5 =  ((5.0 / 100) * valor_desconto10);
